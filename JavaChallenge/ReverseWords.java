@@ -3,12 +3,14 @@ package JavaChallenge;
 public class ReverseWords {
     public void reverseWords(char[] str) {
         int len = str.length;
+
         if (len == 0)
             return;
         reverse(str, 0, len - 1);
 
         int start = 0;
         int end = 0;
+
         for (; end < len; end++) {
             while (end < len && str[end] != ' ')
                 end++;
@@ -17,6 +19,7 @@ public class ReverseWords {
                 start = end + 1;
             }
         }
+
         reverse(str, start, end - 2);
     }
 
