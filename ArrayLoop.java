@@ -11,6 +11,28 @@ public class ArrayLoop {
                 }
             }
         }
+
+        int[] arr3 = new int[10];
+
+        for (int i = 0; i < arr1.length; i++) {
+            arr3[i] = arr1[i];
+        }
+
+        for (int i = 0; i < arr1.length; i++) {
+            arr1[i] = arr1[i];
+        }
+
+        for (int i = 0; i < arr1.length; i++) {
+            arr2[i] = arr1[i];
+        }
+
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr1[i] + "   ");
+        }
+        System.out.println();
+        for (int i = 0; i < arr1.length; i++) {
+            System.out.print(arr2[i] + "   ");
+        }
     }
 
 }
