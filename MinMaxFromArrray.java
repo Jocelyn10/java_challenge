@@ -1,4 +1,4 @@
-public class PrimeNumberFromArray_v2 {
+public class MinMaxFromArrray {
     public static void main(String[] args) {
         int[] arr = { 5, 50, 34, 1, 6, 56, 82, 43, 101 };
 
