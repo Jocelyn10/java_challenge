@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class DuplicateNumber {
+public class ReverseValuesInsideArray {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[] arr = new int[10];
